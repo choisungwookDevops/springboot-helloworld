@@ -30,8 +30,8 @@ jobs:
       uses: CDNievas/heroku-action@v1.0
       with:
         # Used for authentication. You can find it in your heroku homepage account settings
-        heroku_api_key: ${{ heroku_api_key }} 
+        heroku_api_key: ${{ secrets.heroku_api_key }} 
         # Email from Heroku Account
-        heroku_email: ${{ heroku_email }}
+        heroku_email: ${{ secrets.heroku_email }}
         # The appname to use for deploying/updating
-        heroku_app_name: ${{ heroku_app_name }}
+        heroku_app_name: ${{ secrets.heroku_app_name }}
