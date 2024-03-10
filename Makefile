@@ -1,5 +1,5 @@
 # https://hub.docker.com/r/choisunguk/springboot-helloworld/tags
-IMAGE_NAME=choisunguk/springboot-helloworld:v1
+IMAGE_NAME=choisunguk/springboot-helloworld:v2
 
 create-builder:
 	docker buildx create --name mybuilder --use
